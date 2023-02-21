@@ -119,6 +119,7 @@ namespace Pojisteni
 			{
 				Console.WriteLine("Pojištěnec {0} {1} je již zapsán v databázi.", jmeno, prijmeni);
 				upravaTextu.Pokracovani();
+				Console.Clear();
 			}
 			
 		}
